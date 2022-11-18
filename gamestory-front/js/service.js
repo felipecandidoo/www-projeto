@@ -6,7 +6,8 @@ function getData(){
       console.log(res.data)
       data = res.data
 
-      obj.textContent = JSON.stringify(data)
+      obj.textContent = data.name + ' R$ ' +  data.price
+      
     })
     .catch(error => console.log(error))
   }

@@ -25,3 +25,20 @@ body{
 .carousel-inner, .carousel-item{
     height: 90vh;
 }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.col-sm{
+    padding: 20px;
+}
+
+.img-thumbnail{
+    border-radius: 10px;
+}
+
+.card{
+    margin: 100px;
+}
